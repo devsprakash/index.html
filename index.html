@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>digital  watch</title>
+  <style>
+    body{
+      background-color: rgb(81, 7, 219);
+    }
+
+    #clock{
+      font-size: 300px;
+      color: rgb(21, 224, 82);
+    }
+    </style>
+</head>
+<body>
+  <div id="clock"></div>
+
+
+
+  <script>
+    setInterval('clockwise()',500);
+    function clockwise () {
+    let today = new Date();
+    let hor = today.getHours();
+    let mins = today.getMinutes();
+    let sec = today.getSeconds();
+    let pe ="Am";
+
+    if(hor ==0){
+      hor =12;
+    }
+    if(hor>=12){
+      hor = hor-12;
+      pe ="Pm";
+    }
+
+    document.getElementById("clock").innerHTML = hor+':'+mins+':'+sec;
+}
+
+  </script>
+</body>
+</html>
