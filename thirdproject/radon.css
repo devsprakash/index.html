@@ -1,0 +1,32 @@
+
+.container{
+     
+    text-align: center;
+    margin-top: 300px;
+    border: 8px solid #3a0a79;
+    height: 200px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+button{
+    background-color: blueviolet;
+    color: #f1efe9;
+    border: 1px solid #560563;
+    padding: 4px 10px;
+    border-radius: 5px;
+    
+}
+button:hover{
+   
+    background-color: rgb(243, 18, 220);
+    
+}
+h3{
+    font-size: 10px;
+    color: #6a6762;
+}
+
+h1{
+    font-size: 20px;
+}
