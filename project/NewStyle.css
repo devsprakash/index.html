@@ -1,6 +1,8 @@
 .pokemon{
 
-    background-color: beige;
+    background-color: hsl(0, 6%, 83%);
+    height: 200px;
+    padding: 23px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 0px 10px;
@@ -11,3 +13,11 @@
    background-color: white;
     border-radius: 50px;
 }
+
+.number{
+     background-color: hsl(205, 12%, 73%);
+    border: 1px solid rgb(162, 158, 152);
+    border-radius: 10px;
+    padding: 2px 6px;
+}
+

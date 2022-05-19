@@ -1,12 +1,12 @@
 
 .container{
      
-    text-align: center;
-    margin-top: 300px;
-    border: 8px solid #3a0a79;
-    height: 200px;
-    width: 600px;
-    margin-left: 350px;
+   text-align: center;
+   margin-top: 300px;
+   border: 8px solid #620ab4;
+   height: 200px;
+   width: 600px;
+   margin-left: 400px;
 }
 
 button{
@@ -27,6 +27,8 @@ h3{
     color: #6a6762;
 }
 
-h1{
-    font-size: 20px;
+.middle_section{
+
+    font-weight: 600;
+    font-size: 24px;
 }
